@@ -126,7 +126,7 @@
           "https://fsa-crud-2aa9294fe819.herokuapp.com/api/2309_ftb_et_web_am/guests",
           {
             method: "POST",
-            body: json.stringify(guest),
+            body: JSON.parse(guest),
             headers: {
               "Content-Type": "application/json",
             },
